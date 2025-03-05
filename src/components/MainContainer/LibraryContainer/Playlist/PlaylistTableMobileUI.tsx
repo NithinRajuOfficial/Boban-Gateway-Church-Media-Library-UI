@@ -43,7 +43,7 @@ const PlaylistTableMobileUI = () => {
               </div>
             </div>
           </div>
-          <span className="text-black">
+          <span className="text-[#3FAB63]">
             <BsThreeDotsVertical />
           </span>
         </div>

@@ -14,7 +14,7 @@ const Header = () => {
         
                 {/* Uploaded By */}
                 <span className="col-span-2 flex items-center gap-1">
-                  Uploaded By
+                  UPLOADED BY
                   <MdFilterListAlt />
                 </span>
         

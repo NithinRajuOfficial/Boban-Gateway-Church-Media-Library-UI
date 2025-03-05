@@ -16,7 +16,7 @@ const MainContainerHeader = () => {
           Your Media Libraries
         </h1>
         {/* Search icon for searching feature*/}
-        <IoSearch className="text-[#a6a5a5] text-3xl mt-2 hidden sm:block" />
+        <IoSearch className="text-[#a6a5a5] text-3xl mt-2 hidden sm:block hover:cursor-pointer" />
         {/* Plus icon for adding and ThreeDots for displaying searching feature*/}
         <div className="text-xl sm:hidden block">
           <FiPlus className="text-[#05B06C] inline mr-1" />
@@ -25,9 +25,9 @@ const MainContainerHeader = () => {
       </div>
       {/* Add Media Button and Listing style icons */}
       <div className="sm:flex items-center gap-3 hidden">
-        <IoListOutline className="text-[#05B06C] text-2xl" />
-        <BsFillGrid3X3GapFill className="text-[#05B06C] text-2xl" />
-        <button className="p-2 flex items-center gap-1 text-white bg-[#05B06C] rounded-lg">
+        <IoListOutline className="text-[#05B06C] text-2xl hover:cursor-pointer" />
+        <BsFillGrid3X3GapFill className="text-[#05B06C] text-2xl hover:cursor-pointer" />
+        <button className="p-2 flex items-center gap-1 text-white bg-[#05B06C] rounded-lg hover:cursor-pointer">
           <span>
             <MdLibraryAdd />
           </span>

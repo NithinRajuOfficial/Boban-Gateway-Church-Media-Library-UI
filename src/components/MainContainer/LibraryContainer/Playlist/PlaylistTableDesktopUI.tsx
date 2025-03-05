@@ -17,7 +17,7 @@ const PlaylistTableDesktopUI = () => {
           </span>
 
           {/* Media, title and description*/}
-          <div className="col-span-4 flex items-center gap-3">
+          <div className="col-span-4 flex items-center gap-3 hover:cursor-pointer">
             <Image
               src={playlist.media}
               alt="media"
@@ -42,11 +42,11 @@ const PlaylistTableDesktopUI = () => {
           </span>
 
           {/* Status  and Extra icon*/}
-          <div className="col-span-2 flex gap-16 text-xl">
-            <span className="text-[#3FAB63]">
+          <div className="col-span-2 flex gap-16 text-xl text-[#3FAB63]">
+            <span>
               {React.createElement(playlist.status)}
             </span>
-            <span className="text-black">
+            <span className="hover:cursor-pointer">
               <BsThreeDotsVertical />
             </span>
           </div>
