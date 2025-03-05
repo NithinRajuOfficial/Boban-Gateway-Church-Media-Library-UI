@@ -1,3 +1,4 @@
+import MainContainer from "@/components/MainContainer/MainContainer";
 import SideBar from "@/components/Sidebar/SideBar";
 
 export default function MediaLibrary() {
@@ -6,7 +7,8 @@ export default function MediaLibrary() {
       {/* Sidebar */}
       <SideBar />
 
-      
+      {/* Main Container */}
+      <MainContainer />
     </main>
   );
 }
