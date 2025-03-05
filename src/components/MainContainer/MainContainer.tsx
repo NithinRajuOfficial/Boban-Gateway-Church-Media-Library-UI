@@ -1,5 +1,5 @@
-import Header from "./Header";
-import LibraryContainer from "./LibraryContainer";
+import Header from "./Header/Header";
+import LibraryContainer from "./LibraryContainer/LibraryContainer";
 
 const MainContainer = () => {
   return (

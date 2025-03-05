@@ -12,7 +12,7 @@ const MainContainerHeader = () => {
       {/* Back Arrow */}
       <IoIosArrowBack className="block sm:hidden text-[#5b5b5b]" />
       <div className="flex items-center gap-14">
-        <h1 className="text-[#8C8C8C] text-lg md:text-3xl font-thin">
+        <h1 className="text-[#8C8C8C] text-xl md:text-3xl font-thin">
           Your Media Libraries
         </h1>
         {/* Search icon for searching feature*/}

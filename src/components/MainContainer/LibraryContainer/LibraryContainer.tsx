@@ -1,5 +1,5 @@
 import MainContainerHeader from "./MainContHeader";
-import Playlist from "./Playlist";
+import Playlist from "./Playlist/Playlist";
 
 const LibraryContainer = () => {
   return (
