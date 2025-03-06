@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Logo = () => {
   return (
-    <section className="w-full max-w-[10rem] aspect-square relative mb-2">
+    <section className="w-full max-w-[7.5rem] max-h-[7.2rem] aspect-square relative  mb-2">
       <Image
         src="/logo.png"
         alt="Logo"

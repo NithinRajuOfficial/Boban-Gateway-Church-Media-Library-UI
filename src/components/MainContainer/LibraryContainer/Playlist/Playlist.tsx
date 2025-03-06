@@ -4,7 +4,7 @@ import PlaylistTableMobileUI from "./PlaylistTableMobileUI";
 
 const Playlist = () => {
   return (
-    <section>
+    <section className="h-screen">
       {/* Header Row */}
       <Header />
 

@@ -18,11 +18,11 @@ const SideBar = () => {
 
       {/* Sidebar Component */}
       <article
-        className={`fixed top-0 left-0 h-screen w-full sm:w-[35%] bg-[#0D1C3A] z-40 shadow-lg transform ${
+        className={`fixed top-0 left-0 h-screen w-full sm:w-[26rem] bg-[#0D1C3A] z-40 shadow-lg transform ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         } transition-all duration-300 sm:relative sm:translate-x-0  sm:shadow-none`}
       >
-        <section className="relative h-full w-full px-4 py-4 sm:py-10 flex flex-col items-center justify-around">
+        <section className="relative h-full w-full px-4 py-14 sm:py-0 sm:pb-18 sm:pt-16 flex flex-col items-center justify-around sm:gap-12">
           <div className="flex flex-col items-center">
             {/* Logo Section */}
             <Logo />

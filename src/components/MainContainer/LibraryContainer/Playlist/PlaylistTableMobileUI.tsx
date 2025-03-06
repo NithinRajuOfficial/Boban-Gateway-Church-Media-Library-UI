@@ -9,7 +9,7 @@ const PlaylistTableMobileUI = () => {
       {playlistDetails.map((playlist, index) => (
         <div
           key={index}
-          className="flex justify-between items-center py-4 border-b"
+          className="flex justify-between items-center py-4"
         >
           {/* Media, title and description, uploaded by, and status*/}
           <div className="flex items-center gap-3">
@@ -18,7 +18,6 @@ const PlaylistTableMobileUI = () => {
               alt="media"
               width={80}
               height={50}
-              className="rounded-lg"
             />
             <div className="flex flex-col">
               <div>
