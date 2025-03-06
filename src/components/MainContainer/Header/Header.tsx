@@ -22,7 +22,7 @@ const Header = () => {
 
         {/* Footer Path */}
       </section>
-      <small className="sm:-ml-6 text-[9px] sm:text-[.9rem] text-[#5B5B5B] mt-4 sm:mt-8 mb-1 sm:mb-4 block">
+      <small className="sm:-ml-6 text-[9px] sm:text-[.9rem] text-[#5B5B5B] mt-4 sm:mt-8 mb-1 sm:mb-3 block">
         Home{" > "}Organization{" > "}Authentic Amazing Kids Inc{" > "}Sites
         {" > "}Plano, TX{" > "}Libraries{" > "}Core library
       </small>

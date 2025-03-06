@@ -9,7 +9,7 @@ const PlaylistTableDesktopUI = () => {
       {playlistDetails.map((playlist, index) => (
         <div
           key={index}
-          className="sm:grid grid-cols-21 items-center py-2 hidden"
+          className="sm:grid grid-cols-21 items-center pb-3 hidden"
         >
           {/* # */}
           <span className="col-span-1 text-center text-lg text-[#BCBCBC]">

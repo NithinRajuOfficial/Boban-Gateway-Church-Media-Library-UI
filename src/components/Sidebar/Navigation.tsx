@@ -4,7 +4,7 @@ import { navigationItemsLeft, navigationItemsRight } from "@/constants/Index";
 
 const Navigation = () => {
   return (
-    <section className="h-full w-full md:w-[40%] flex items-center justify-center gap-12">
+    <section className="w-full md:w-[40%] flex items-center justify-center gap-12">
       {/* Left Column */}
       <div className="flex flex-col gap-4">
         {navigationItemsLeft.map((item, index) => (

@@ -22,7 +22,7 @@ const SideBar = () => {
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         } transition-all duration-300 sm:relative sm:translate-x-0  sm:shadow-none`}
       >
-        <section className="relative h-full w-full px-4 py-14 sm:py-0 sm:pb-18 sm:pt-16 flex flex-col items-center justify-around sm:gap-12">
+        <section className="relative h-full w-full px-4 py-14 sm:py-0 sm:pb-18 sm:pt-16 flex flex-col items-center justify-around sm:justify-start sm:gap-12">
           <div className="flex flex-col items-center">
             {/* Logo Section */}
             <Logo />
